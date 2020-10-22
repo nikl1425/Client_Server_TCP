@@ -12,10 +12,11 @@ namespace Server
     {
         static void Main(string[] args)
         {
+
             // set server to TCP listener on local
             var server = new TcpListener(IPAddress.Loopback, 5000);
             server.Start();
-            Console.WriteLine("Server started!");
+            Console.WriteLine("STARTED SERVER!");
 
 
             while (true)

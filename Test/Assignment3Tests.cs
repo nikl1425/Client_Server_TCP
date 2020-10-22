@@ -14,6 +14,8 @@ namespace Assignment3TestSuite
 {
     public class Response
     {
+
+        
         public string Status { get; set; }
         public string Reason { get; set; }
     }
